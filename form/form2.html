@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="">
+		<!-- check box for multiple selection -->
+		subject: <input type="checkbox" name="bangla" id="bangla"> <label for="bangla"> Bangla</label>
+		         <input type="checkbox" name="english" id="eng"><label for="eng">English</label> 
+		         <input type="checkbox" name="math" id="math"><label for="math">Math</label> 
+		         <input type="checkbox" name="physics" id="phy"> <label for="phy">Physics</label> 
+<br>
+		<!-- radio box for single selection -->
+       <!-- name er value dile eksathe onkgula select kora jai na -->
+	    Gender: <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>	  
+	            <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>	  
+	            <input type="radio" name="gender" id="none" value="none"><label for="none">None</label>	
+	            <br>
+
+	      <!-- selection box -->
+	       <label for="country">Country: </label>  
+	       <select name="country" id="country">
+	       	<option value="bn">Bangladesh</option>
+	       	<option value="in">India</option>
+	       	<option value="us">America</option>
+	       </select>
+	       <br>
+
+	       <!-- file select box -->
+	       <label for="image">Upload image</label>
+	       <input type="file" name="image" id="image">
+
+	       <!-- hidden controls -->
+	       <input type="hidden" name="id" value="10">
+
+	       <!-- clickable button -->
+ 		   <input type="button" value="CLICK">
+ 		   <input type="submit" value="Submit" name="submit">
+ 		   <input type="reset" value="Clear">
+</body>
+</html>
